@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  h2 {
+    @apply md:text-3xl font-Roboto font-bold text-[20px];
+  }
+  h4 {
+    @apply md:text-2xl text-[15px] font-Roboto mt-[8px] font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-[rgb(233,232,229)] mb-[20px] md:px-[70px] px-[30px]  py-[8px] md:py-[12px] rounded-[10px] outline-none border-none text-[black] font-bold font-Roboto   hover:bg-[rgb(7,108,109)];
+  }
+
+  .title {
+    @apply w-full  font-Roboto md:text-[18px] text-[14px] text-[#666] px-[20px]  text-center items-center pt-[20px];
+  }
+  .swappers {
+    @apply grid md:grid-cols-4  grid-cols-2 gap-[10px] w-full max-w-[1240px] m-auto py-[50px] px-[10px] text-[12px] md:gap-[15px];
+  }
+
+  .check {
+    @apply cursor-not-allowed  mb-[20px] bg-[rgb(147,209,189)] px-[30px]  py-[8px] md:px-[70px] md:py-[12px] rounded-[10px] outline-none border-none text-[white] font-bold font-Roboto;
+  }
+}
+.App {
+  overflow: hidden;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+:root{
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    background-color:rgb(250,224,222);
+    line-height:1.5;
+    text-rendering: optimizeSpeed; 
+    font-size:1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+button,input{
+    outline: none;
+    border:none;
+}
+
+a{
+    text-decoration: none;
+}
